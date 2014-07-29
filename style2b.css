@@ -1,0 +1,83 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+/*** FIXED HEADER ***/
+
+
+.header {
+    position: fixed;
+    height:150px;
+    background:tomato;
+    width:100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.title, .contact {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    height: 75px;
+    box-sizing: border-box;
+    }
+
+.title h1 {
+    font-size: 1.5em;
+    font-family: arial;
+}
+
+.linkedin, .mail {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.nav {
+    background-color: lightblue;
+    top: 80px;
+    width: 900px;
+    position: absolute;
+    box-sizing: border-box;
+    
+}
+
+.nav a {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    /*padding: 5px 25px; */
+    color: black;
+}
+
+.nav a:visited {
+    color: navyblue;
+}
+
+.nav a:hover {
+    color: red;
+} 
+
+/*** MAIN CONTENT ***/
+
+ .body-container {
+    margin-top: 150px;
+    left: 0;
+    z-index: 0;
+   /* margin: 175px 100px 0; */
+position: absolute;
+} 
+
+.body-container ul {
+    list-style: none;
+}
+
+ul.details {
+    list-style: circle;
+}
